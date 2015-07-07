@@ -9,3 +9,6 @@ env:
     - GH_TOKEN: c4a6528b68a704c17f0d7d6bb5290c79e46e25db
     - GH_USERNAME: aliparsai
     - GH_PASSWORD: perham6911
+    - AUTHOR_NAME: Parsai
+    - AUTHOR_FIRSTNAME: Ali
+    - AUTHOR_INITIAL: p
