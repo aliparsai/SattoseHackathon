@@ -1,6 +1,7 @@
 #!/bin/bash
 rm -rf out || exit 0;
 mkdir out; 
+bundle install
 bundle exec jekyll build
 ( cd out
  git init
