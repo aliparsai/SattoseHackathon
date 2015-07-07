@@ -7,7 +7,7 @@ with open("triggerfile", "w") as triggerFile:
 
 subprocess.call(["git", "add", "./triggerfile"])
 subprocess.call(["git", "commit", "-m", "\"triggercommit-"+randomStatement+"\""])
-subprocess.call(["git", "push"])
+subprocess.call(["git", "push", "origin", "master"])
 
 
 
