@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - '0.10'
+script: npm run-script deploy
+env:
+  global:
+    - GH_REF: github.com/aliparsai/SattoseHackathon.git
+    - secure: c4a6528b68a704c17f0d7d6bb5290c79e46e25db
