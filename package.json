@@ -3,7 +3,7 @@
   "description": "Ali's AutoUpdater",
   "version": "0.0.1",
   "scripts": {
-     "deploy": "./deploy-ghpages.sh"
+     "deploy": "sh ./deploy-ghpages.sh"
  },
    "engine": "node 0.4.1"
 
