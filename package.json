@@ -1,8 +1,9 @@
 {
   "name": "AutoUpdater",
   "description": "Ali's AutoUpdater",
-  "version": "0.0.1"
-},
-"scripts": {
-     "deploy": "./deploy-ghpages.sh"
- }
+  "version": "0.0.1",
+  "scripts": {
+     "deploy": "./deploy-ghpages.sh" 
+     }
+}
+
