@@ -10,8 +10,24 @@
   <link rel="stylesheet" href="stylesheets/github-dark.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/script.js"></script>
+<script language="JavaScript">
+<!--
+function autoResize(id){
+    var newheight;
+    var newwidth;
 
-  <title>SATToSE</title>
+    if(document.getElementById){
+        newheight=document.getElementById(id).contentWindow.document .body.scrollHeight;
+        newwidth=document.getElementById(id).contentWindow.document .body.scrollWidth;
+    }
+
+    document.getElementById(id).height= (newheight) + "px";
+    document.getElementById(id).width= (newwidth) + "px";
+}
+//-->
+</script>
+
+<title>SATToSE</title>
   <meta name="description" content="website for sattose hackatlon">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -81,7 +97,7 @@
   </div>
 
   -->
-  <iframe src="./reference.html"></iframe>
+  <iframe src="./reference.html" frameborder="0" scrolling="no" width="100%" height="200px" id="iframe" marginheight="0"  onLoad="autoResize('iframe');"></iframe>
 
 </body>
 </html>
