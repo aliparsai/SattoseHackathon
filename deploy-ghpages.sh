@@ -10,5 +10,5 @@ bundle exec jekyll build
  cp -r ../_site/* .
  git add .
  git commit -m "Deployed to Github Pages"
- git push --force --quiet "https://${GH_USERNAME}:${GH_TOKEN}@${GH_REF}" master:gh-pages
+ git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
 )
